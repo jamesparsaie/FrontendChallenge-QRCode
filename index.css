@@ -1,9 +1,19 @@
 body {
-    background-color: #d5e1ef;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .qr-div {
-    background-color: white;
-    height: fit-content;
-    width: fit-content;
+    background-color: #d5e1ef;
+    height: 70%;
+    width: 95%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
