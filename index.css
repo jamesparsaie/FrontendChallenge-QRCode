@@ -11,9 +11,39 @@ body {
 
 .qr-div {
     background-color: #d5e1ef;
-    height: 70%;
+    min-height: 70%;
+    height: fit-content;
     width: 95%;
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.contentContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    width: 20%;
+    height: fit-content;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 60%;
+    background-color: red;
+}
+
+#qr-image {
+    width: 95%;
+    height: 100%; /* Set the height to 50% of its container */
+    border-radius: 15px;
+    margin-bottom: 10px; /* Add margin to create space for the text below */
+    margin-top: 3%;
+}
+
+.text-div {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%
 }
